@@ -32,7 +32,7 @@ Services it will endorse :
 
 <h2>🔑Tech Stacks</h2>
 
-Skills : Python, HTML, CSS, JS, Bootstrap, React
+Skills : Python, HTML, CSS, JS, Bootstrap, React, Django
 
 When raising an issue, do make sure to mention the kind of feature, feature title, short description of the feature and how would you expect it to work. As a good practice, always link the issue number with pull request. (#issue number : Give this details when you raise a PR).
 
