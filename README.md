@@ -8,7 +8,7 @@
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat&logo=github"></a> 
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/badge/Open%20Source-%F0%9F%A4%8D-Green"></a> 
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square"></a>
-<a href="https://github.com/prathimacode-hub/MedFlare/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/prathimacode-hub/Treksy"></a>
+<a href="https://github.com/prathimacode-hub/Treksy/graphs/contributors"><img src="https://img.shields.io/github/contributors-anon/prathimacode-hub/Treksy"></a>
 <a href="https://github.com/prathimacode-hub"><img src="https://img.shields.io/maintenance/yes/2022"></a>
 </p> 
 
@@ -20,14 +20,27 @@ Treksy is a full fledged travel app solution for unique experiences, offbeat exp
 Spend your time making the most of your experiences instead of spending countless hours searching for bookings, activities and local resources. Travel hassle free. Rejuvenate your soul with tons of memories that we get you covered.
 
 
-<!-- <h2>✔Features</h2>
+<h2>✔Features</h2>
 
 Services it will endorse :
 
+- User-Friendly Booking Systems (Flight, Bus, Train, Hotels, Car)
+- Greener Route Suggestions
+- Travel Recommendation Systems
+- Trip Planner
+- Customized Itineraries
+- Unique Experiences & Activities
+- Offbeat Explorations
+- Sustainable Travel
+- News & Information on Travel 
+- Resources To Know & Insights
 
- <h2>🙌Join Here</h2>
+Additional features would be added soon that might be a good support to a sustainable vision.
 
-🚀 Join us to come up with a real-time medical aid to tackle the solution of pressing needs of the patients / individuals who are in situations of dire emergencies with nowhere to rely on. Not reaching medical aid at right time might cost a life. We are building this app to ensure that no one suffers due to lack of awareness and get the required help when time matters a lot. Lets make this workflow more efficient and valuable to the community for their livelihood. -->
+
+<h2>🙌Join Here</h2>
+
+🚀 Peep in here to come with a full-end travel app solution to count on with the memories and experiences you can adorn instead of restless planning and organizing necessities of bookings. This would also help in guiding and generating some transformation in a society on a way to travel responsibly without adding any impact on the environment.
 
 
 <h2>🔑Tech Stacks</h2>
@@ -37,7 +50,7 @@ Skills : Python, HTML, CSS, JS, Bootstrap, React, Machine Learning
 When raising an issue, do make sure to mention the kind of feature, feature title, short description of the feature and how would you expect it to work. As a good practice, always link the issue number with pull request. (#issue number : Give this details when you raise a PR).
 
 If you want to work on this unique project and share it with the world, you can do that here. 
-Go through the contributing guidelines [here](https://github.com/prathimacode-hub/MedFlare/blob/main/CONTRIBUTING.md).
+Go through the contributing guidelines [here](https://github.com/prathimacode-hub/Treksy/blob/main/CONTRIBUTING.md).
 
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
