@@ -1,0 +1,99 @@
+body{
+    background-image: url(http://interfacelift.com/wallpaper/previews/02040_blackroad_672x420.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container-heading{
+    color: white;
+    text-align: center;
+    padding: 0.5em;
+    pointer-events: none;
+}
+.container-icon{
+    text-align: center;
+}
+.fa {
+    padding: 1.25em;
+    font-size: 1.875em;
+    width: 1.875em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0px 0.3em;
+  }
+
+/* Hover effect on icons*/
+.fa:hover {
+    opacity: 0.8;
+  }
+
+/* Facebook */
+.fa-facebook {
+    background: #5c87e4;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+/* Telegram */
+.fa-paper-plane {
+    background: #48a5f1;
+    color: white;
+}
+
+/* Phone */
+.fa-phone {
+    background: #6b36a7;
+    color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+    background: #cc16a4;
+    color: white;
+}
+
+h3{  
+    pointer-events: none;
+    text-align: center;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%; /* Full width */
+    padding: 0.75em; /* Some padding */ 
+    border: 0.0625 solid #ccc; /* Gray border */
+    border-radius: 0.25em; /* Rounded borders */
+    box-sizing: border-box; /* To make sure that padding and width stays in place */
+    margin-top: 0.375em; /* Adding a top margin */
+    margin-bottom: 1em; /* Bottom margin */
+    resize: vertical; /* Allowing the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #00c00a;
+    color: white;
+    padding: 0.75em 1.25em;
+    border: none;
+    border-radius: 0.25em;
+    cursor: pointer;
+  }
+  
+  /* hover effect on submit button*/
+  input[type=submit]:hover {
+    background-color: #00a508;
+  }
+  
+  /* Background effect and some padding around the form */
+  .container-form {
+    color: white;
+    border-radius: 0.3125em;
+    backdrop-filter: blur(10px);
+    padding: 1.25em;
+    margin: 5% 15%;
+    border: 0.125em solid rgb(177, 177, 177);
+  }
