@@ -95,6 +95,19 @@ https://prathimacode-hub.github.io/Treksy/
 > print("Start contributing for Treksy")
 
 
+<h2>👍OpenSource Program</h2>
+
+This project was a part of these open source programs.
+
+<table>
+<tr>
+ <td>
+<a href="https://github.com/prathimacode-hub"><img src="https://github.com/prathimacode-hub/prathimacode-hub/blob/main/OpenSource%20Programs/JGEC%20Winter%20Of%20Code/JGEC-Winter-Of-Code.jpg" width=100px height=80px /></a>
+ </td>
+</tr>
+</table>
+
+
 <h2>✨Hall Of Fame</h2>   
 
 Thanks goes to these Wonderful People. Contributions of any kind are welcome!🚀 
@@ -110,6 +123,15 @@ Thanks goes to these Wonderful People. Contributions of any kind are welcome!�
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+
+<h2>✔JWOC Project Mentor</h2>
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/Swatilekha-Roy"><img src="https://avatars.githubusercontent.com/u/66589183?v=4" width="100px;" alt=""/><br /><sub><b>Swatilekha Roy</b></sub></a></td>   
+  </tr>
+</table>
 
 
 <h2>📜 Code Of Conduct</h2>
