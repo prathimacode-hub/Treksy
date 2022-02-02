@@ -8,23 +8,27 @@
 Name : Unni Krishnan <br>
 Github : https://github.com/unnikrishnan2002 <br>
 Number of PR's : 3 <br>
+PR Numbers : #14, #18, #27
 Projects Done : Header Section to Home Page (easy) | Folder Structure Added + Refined Code (easy) | Carousel Added to Home Page (easy) | <br>
 Points : 3 <br>
 
 Name : Shruti Goyal <br>
 Github : https://github.com/Shruti025 <br>
 Number of PR's : 1 <br>
+PR Numbers : #15
 Projects Done : About Page (easy) | <br>
 Points : 1 <br>
 
 Name : Riddhi Bhagat <br>
 Github : https://github.com/Riddhi9570 <br>
 Number of PR's : 1 <br>
+PR Numbers : #21
 Projects Done : Contact Page (easy) | <br>
 Points : 1 <br>
 
 Name : Vaishnavi Nigam <br>
 Github : https://github.com/VaishnaviNigam25 <br>
 Number of PR's : 1 <br>
+PR Numbers : #16
 Projects Done : Footer Section to Home Page (easy) | <br>
 Points : 1 <br>
