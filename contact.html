@@ -5,42 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/contact.css">
-    <!--icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
     <title>Contact</title>
+    <script src="js/contact.js"></script>
 </head>
 <body>
-    <div class="container-heading">
-        <h2>Contact Us</h2>
+    <div class="container">
+        <div class="heading">
+            <h2>Contact Us</h2>
+        </div> 
+        <div class="row">
+            <div class="column1">  
+                <div class="address details">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="topic">Address</div>
+                    <div class="text-one">Address line 1</div>
+                    <div class="text-two">Address line 2</div>
+                  </div>
+                  <div class="phone details">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="topic">Phone</div>
+                    <div class="text-one">+0097 6793 5555</div>
+                    <div class="text-two">+0095 5434 1234</div>
+                  </div>
+                  <div class="email details">
+                    <i class="fas fa-envelope"></i>
+                    <div class="topic">Email</div>
+                    <div class="text-one">info1@treksy.com</div>
+                    <div class="text-two">info2@treksy.com</div>
+                  </div>
+            </div>
+
+            <div class="column2">
+
+                <h3>We'd love to hear from you...</h3>
+                
+                <form method="POST" id="contactForm" name="contactForm" onsubmit="return validate();">
+            
+                    <label for="name">Name*</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                
+                    <label for="email">Email*</label>
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+
+                    <label for="subject">Subject*</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject" required></textarea>
+
+                    <label for="message">Message*</label>
+                    <textarea id="message" name="message" placeholder="Your message..." required rows="4"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
+        </div>
     </div>
-
-    <div class="container-icon">
-        <a href="#" class="fa fa-facebook"></a>
-        <a href="#" class="fa fa-twitter"></a>
-        <a href="#" class="fa fa-paper-plane"></a>
-        <a href="#" class="fa fa-phone"></a>
-        <a href="#" class="fa fa-instagram"></a>
-    </div>
-
-    <div class="container-form">
-
-        <h3>We'd love to hear from you...</h3>
-        
-        <form action="action_page.php" method="POST" id="contactForm" name="contactForm">
-      
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name">
-        
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="Email">
-
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Message"></textarea>
-        
-            <input type="submit" value="Submit">
-        
-          </form>
-    </div>
-  
 </body>
 </html>
