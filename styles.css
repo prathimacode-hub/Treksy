@@ -24,3 +24,11 @@
     width: 100%; 
     left: 0; 
   }
+
+  .w-100 {
+    width: 100% !important;
+    height: 90vh;
+  }
+  .carousel-inner {
+    color: black;
+  }
