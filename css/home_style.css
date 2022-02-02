@@ -7,7 +7,7 @@
     opacity: 0.6;
 }
 .txt{
-    bottom: 280px;
+    bottom: 450px;
     position: relative;
     
 }
@@ -33,7 +33,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    bottom: 250px;
+    bottom: 415px;
     padding: 0px;
     
 
@@ -59,7 +59,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 230px;
+    bottom: 365px;
 
 }
 
