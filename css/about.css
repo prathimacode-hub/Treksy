@@ -32,13 +32,13 @@ h2 {
 }
 
 #intro-image {
-    background-image: url(plan.jpg);
+    background-image: url(../assets/img/plan.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #travel-image {
-    background-image: url(travel.jpg);
+    background-image: url(../assets/img/travel.jpg);
     background-repeat: no-repeat;
     background-size: cover
 }
