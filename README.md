@@ -55,6 +55,13 @@ Go through the contributing guidelines [here](https://github.com/prathimacode-hu
 Subsequently, also go through the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 
+<h2>👌Color Scheme for Treksy</h2>
+
+<p align="left">
+<img src="https://github.com/prathimacode-hub/Treksy/blob/main/assets/readme/Color%20Scheme%20for%20Treksy.png" width=450px height=250px"></a>
+</p>
+
+
 <h2>⌛Link To The Website</h2>
 
 https://prathimacode-hub.github.io/Treksy/
