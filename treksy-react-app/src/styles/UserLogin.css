@@ -74,7 +74,6 @@ div#userLogin div#form-container div#action {
 
 div#userLogin div#form-container div#action div.form-group {
     display: flex;
-    /* align-items: center; */
 }
 
 div#userLogin div#form-container div.form-group label.form-check-label {
@@ -110,30 +109,6 @@ div#userLogin div#form-container div#links p {
 	text-align: center;
 }
 
-/* @media screen and (max-width: 1024px) {
-	div#userLogin div#form-container {
-		width: px;
-	}
-} */
-
-/* @media screen and (max-width: 768px) {
-    div#userLogin div#form-container div.form-group {
-        padding: 6px 0;
-    }
-    div#userLogin div#form-container div.form-group label {
-		font-size: 18px;
-	}
-	div#userLogin div#form-container div.form-group input {
-		font-size: 15px;
-	}
-	div#userLogin div#form-container div.form-group textarea {
-		font-size: 15px;
-	}
-	div#userLogin div#form-container div#links button.btn {
-		font-size: 15px;
-	}
-} */
-
 @media screen and (max-width: 512px) {
 	div#userLogin div#form-container {
 		width: 80%;
@@ -141,9 +116,6 @@ div#userLogin div#form-container div#links p {
 }
 
 @media screen and (max-width: 476px) {
-    /* div#userLogin div#form-container div.form-group {
-        padding: 4px 0;
-    } */
 	div#userLogin div#form-container div.form-group label {
 		font-size: 16px;
 	}
