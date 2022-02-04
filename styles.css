@@ -32,3 +32,74 @@
   .carousel-inner {
     color: black;
   }
+
+  /* POPUP STYLES */
+  .bg-modal {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: none;
+  }
+
+  .bg-modal .modal-content {
+    height: 500px;
+    width: 700px;
+    background-color: white;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 4px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    /* pointer-events: none; */
+  }
+
+  #map {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+  }
+
+  .close {
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: #333;
+  }
+
+  .close:hover {
+    color: #ff1919;
+  }
+
+  .locate {
+    position: absolute;
+    right: 10px;
+    top: 670px;
+    padding: 2px;
+  } 
+
+  .locate:hover{
+    background-color: rgb(218, 209, 209);
+  }
+
+  .text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 25px;
+  }
+  /* POPUP STYLES */
+
+  
