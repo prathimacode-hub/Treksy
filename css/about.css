@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 body {
     background: linear-gradient(90deg, #e6e6fa, #ffb6c1);
 }
@@ -56,7 +58,7 @@ footer {
     left: 0;
     bottom: 0;
     width: 100%;
-    border: 1px solid #4e78a0;
+    border: 1px solid #385a7a;
     background: #4e78a0;
 }
 
