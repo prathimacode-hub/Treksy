@@ -1,0 +1,140 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div#userLogin {
+	background: url("../assets/pictures/user0.jpg") center center/cover
+		no-repeat;
+	height: 100vh;
+	width: 100%;
+    /* position: relative; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#userLogin::before {
+	content: "";
+	background: rgb(0 0 0 / 20%);
+	position: absolute;
+	height: inherit;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+div#userLogin div#form-container {
+	width: 420px;
+	padding: 12px 0;
+	border-radius: 16px;
+	background-color: rgb(255 251 251 / 30%);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+	div#userLogin div#form-container {
+		-webkit-backdrop-filter: saturate(150%) blur(20px);
+		backdrop-filter: saturate(150%) blur(20px);
+	}
+}
+
+div#userLogin div#form-container h2 {
+	margin: 0;
+	color: #1d2c34;
+	text-align: center;
+}
+
+div#userLogin div#form-container form {
+	padding: 0 18px;
+	border-radius: 12px;
+}
+
+div#userLogin div#form-container div.form-group {
+	padding: 10px 0;
+}
+
+div#userLogin div#form-container div.form-group label {
+	color: #1d2c34;
+	font-size: 20px;
+    font-weight: 500;
+}
+div#userLogin div#form-container div.form-group input {
+	font-size: 18px;
+}
+div#userLogin div#form-container div.form-group textarea {
+	font-size: 18px;
+}
+
+div#userLogin div#form-container div#action {
+    display: flex;
+    justify-content: space-between;
+}
+
+div#userLogin div#form-container div#action div.form-group {
+    display: flex;
+}
+
+div#userLogin div#form-container div.form-group label.form-check-label {
+    margin-left: 6px;
+    font-size: 16px;
+}
+
+div#userLogin div#form-container div#links {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div#userLogin div#form-container div#links button.btn {
+	width: 50%;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: #c1663d;
+}
+
+div#userLogin div#form-container div#links button.btn:hover {
+    background-color: rgb(161, 88, 54);
+}
+
+div#userLogin div#form-container div#links p {
+	color: #1d2c34;
+	margin: 0;
+	margin-top: 12px;
+    font-weight: 500;
+	text-align: center;
+}
+
+@media screen and (max-width: 512px) {
+	div#userLogin div#form-container {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 476px) {
+	div#userLogin div#form-container div.form-group label {
+		font-size: 16px;
+	}
+	div#userLogin div#form-container div.form-group input {
+		font-size: 12px;
+	}
+	div#userLogin div#form-container div#links button.btn {
+		font-size: 12px;
+	}
+	div#userLogin div#form-container div#links p {
+		font-size: 12px;
+	}
+    div#userLogin div#form-container div#action input.form-check-input {
+        font-size: 14px;
+    }
+    div#userLogin div#form-container div#action label.form-check-label {
+        font-size: 14px;
+    }
+    div#userLogin div#form-container div#action p {
+        font-size: 14px;
+    }
+}

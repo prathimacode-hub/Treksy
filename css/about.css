@@ -1,0 +1,112 @@
+body {
+    background: linear-gradient(90deg, #e6e6fa, #ffb6c1);
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-family: Secular One, sans-serif, monospace;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 50%;
+    transform: translate(-50%);
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.info {
+    display: grid;
+    grid-template-rows: 25% 75%;
+    background: #ee9a49;
+}
+
+.info div {
+    text-align: justify;
+    padding: 8px;
+}
+
+#intro-image {
+    background-image: url(../assets/img/plan.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#travel-image {
+    background-image: url(../assets/img/travel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+ul {
+    margin-top: 0;
+}
+
+li {
+    margin-bottom: 3px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: 1px solid #4e78a0;
+    background: #4e78a0;
+}
+
+.first {
+    border-radius: 10px 0px 0px 10px;
+}
+
+.second {
+    border-radius: 0px 10px 10px 0px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color: white;
+}
+
+.fa-twitter {
+    color: white;
+}
+
+.fa-github {
+    color: white;
+}
+
+.footer {
+    margin-left: 50%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    transform: translate(-50%);
+    justify-content: center;
+    margin-top: 5px;
+}
+
+p {
+    font-family: Source Code Pro, monospace;
+}
+
+li {
+    font-family: 'Varela Round', monospace;
+}
