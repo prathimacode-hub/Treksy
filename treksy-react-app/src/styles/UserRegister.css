@@ -1,0 +1,164 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+div#userRegister {
+	background: url("../assets/pictures/user0.jpg") center center/cover
+		no-repeat;
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div#userRegister::before {
+	content: "";
+	background: rgb(0 0 0 / 20%);
+	position: absolute;
+	height: inherit;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+div#userRegister div#form-container {
+	width: 600px;
+	padding: 12px 0;
+	border-radius: 16px;
+	background-color: rgb(255 251 251 / 30%);
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+	div#userRegister div#form-container {
+		-webkit-backdrop-filter: saturate(150%) blur(20px);
+		backdrop-filter: saturate(150%) blur(20px);
+	}
+}
+
+div#userRegister div#form-container h2 {
+	margin: 0;
+	color: #1d2c34;
+	text-align: center;
+}
+
+div#userRegister div#form-container form {
+	padding: 0 18px;
+	border-radius: 12px;
+}
+
+div#userRegister div#form-container div#name {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+div#userRegister div#form-container div#name div.form-group {
+	width: 100%;
+}
+
+div#userRegister div#form-container div#name div.form-group:nth-child(1) {
+	margin-right: 6px;
+}
+
+div#userRegister div#form-container div.form-group {
+	padding: 10px 0;
+}
+
+div#userRegister div#form-container div.form-group label {
+	color: #1d2c34;
+	font-size: 22px;
+    font-weight: 500;
+}
+div#userRegister div#form-container div.form-group input {
+	font-size: 18px;
+}
+div#userRegister div#form-container div.form-group textarea {
+	font-size: 18px;
+}
+
+div#userRegister div#form-container div#links {
+	padding: 10px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+div#userRegister div#form-container div#links button.btn {
+	width: 50%;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: #c1663d;
+}
+
+div#userRegister div#form-container div#links button.btn:hover {
+    background-color: rgb(161, 88, 54);
+}
+
+div#userRegister div#form-container div#links p {
+	color: #1d2c34;
+	margin: 0;
+	margin-top: 12px;
+    font-weight: 500;
+	text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+	div#userRegister div#form-container {
+		width: 512px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	div#userRegister div#form-container div#name {
+		flex-direction: column;
+	}
+    div#userRegister div#form-container div.form-group {
+        padding: 6px 0;
+    }
+    div#userRegister div#form-container div.form-group label {
+		font-size: 18px;
+	}
+	div#userRegister div#form-container div.form-group input {
+		font-size: 15px;
+	}
+	div#userRegister div#form-container div.form-group textarea {
+		font-size: 15px;
+	}
+	div#userRegister div#form-container div#links button.btn {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	div#userRegister div#form-container {
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 476px) {
+
+    div#userRegister div#form-container div.form-group {
+        padding: 4px 0;
+    }
+	div#userRegister div#form-container div.form-group label {
+		font-size: 16px;
+	}
+	div#userRegister div#form-container div.form-group input {
+		font-size: 12px;
+	}
+	div#userRegister div#form-container div.form-group textarea {
+		font-size: 12px;
+	}
+	div#userRegister div#form-container div#links button.btn {
+		font-size: 12px;
+	}
+	div#userRegister div#form-container div#links p {
+		font-size: 12px;
+	}
+}
