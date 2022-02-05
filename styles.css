@@ -32,3 +32,130 @@
   .carousel-inner {
     color: black;
   }
+
+/* __________________Home page design CSS_________________ */
+
+.main{
+  background-color: black;
+}
+
+.slide{
+  opacity: 0.5;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.d-block{
+  height: 35rem;
+}
+
+
+.rev-icon{width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.to{
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.dt{
+  margin: 3px;
+  border-radius: 5px;
+}
+.f1{
+  margin-right: 5px;
+}
+.form-control{
+  width: 70%;
+}
+
+.buses{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+  background-color: cadetblue;
+}
+.card{
+  margin: 25px;
+}
+.about_section{
+  display: flex;
+  margin-top: 8vh;
+}
+.about_avg{
+  width: 30rem;
+  height: 30rem;
+  margin: 0vh 10vh;
+}
+.about_text{
+  position: relative;
+  top: 7rem;
+  padding-left: 3rem;
+  color: #8a6974;
+}
+.feature{
+  margin-top: 4rem;
+  display:flex;
+  margin-bottom: 3rem;
+}
+.feature-image{
+  width: 50%;
+}
+
+.feature_text{
+  position: relative;
+  top: 6rem;
+  padding-left: 3rem;
+  color: #198754;
+
+}
+h3 ul{
+  position: relative;
+  top: 5rem;
+  left: 3.5rem;
+  line-height: 3rem;
+  color: #8a6974;
+}
+
+/* Resources To Know & Insights section */
+
+.resource{
+  display: flex;
+  margin: 4rem;
+  
+  
+}
+.resources-img{
+  width: 50%;
+}
+.resource-text-area{
+  color: #8a6974;
+  position: relative;
+  top: 5rem;
+}
+.resource-text{
+  color: #198754;
+}
+
+.resource-text-area h3{
+
+  line-height: 3rem;
+}
+.resource-btn{
+  position: relative;
+  top: 2rem;
+}
+
+
+/* _______________________________________________________________ */
+
