@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
+    <!-- link for animation (aos) -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
@@ -77,10 +79,10 @@
             <hr>
     </section>
 
-    <section id="blog-conteiner" class="container pt-4">
+    <section id="blog-conteiner" class="container pt-4" >
         <div class="row">
             <div class="post col-lg-6 col-md-6 col-12 pb-4">
-                <div class="post-img date">
+                <div class="post-img date" data-aos="fade-right" data-aos-duration='1000'  data-aos-delay='200'>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/6th-Blog_image.jpg"  alt="Blog-img">
                     <p class="img-txt">date 5 feb</p>
                 </div>
@@ -117,7 +119,7 @@
             </div>
 
             <div class="post col-lg-6 col-md-6 col-12 pb-4">
-                <div class="post-img date">
+                <div class="post-img date" data-aos="fade-left" data-aos-duration='1000' data-aos-delay='400'>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/2nd-Blog_image.jpg"  alt="Blog-img">
                     <p class="img-txt">date 5 feb</p>
                 </div>
@@ -153,7 +155,7 @@
             </div>
 
             <div class="post col-lg-6 col-md-6 col-12 pb-4">
-                <div class="post-img date">
+                <div class="post-img date" data-aos="fade-right" data-aos-duration='1000' data-aos-delay='600'>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/7th-Blog_image.jpg"  alt="Blog-img">
                     <p class="img-txt">date 5 feb</p>
                 </div>
@@ -187,7 +189,7 @@
             <!---------end-->
             </div>
             <div class="post col-lg-6 col-md-6 col-12 pb-4">
-                <div class="post-img date">
+                <div class="post-img date" data-aos="fade-left" data-aos-duration='1000' data-aos-delay='800'>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/4th-Blog_image.jpg"  alt="Blog-img">
                     <p class="img-txt">date 5 feb</p>
                 </div>
@@ -224,26 +226,26 @@
            
 
             <div class="col-lg-12 col-md-12 col-12 pb-5 pt-5">
-                <div class="post-img">
+                <div class="post-img" data-aos="flip-up" data-aos-duration='1000'>
                     <img class="w-100 img-fluid banner" src="/assets/img/Blog-img/Blog-cover.png"  alt="Blog-img">
                 </div>
             </div>
             <div class="post col-lg-4 col-md-4 col-6 pb-5">
-                <div class="post-img date">
+                <div class="post-img date" data-aos="zoom-in" data-aos-duration='1000'>
                     <p class="img-txt">date 4 feb</p>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/8th-Blog_image.jpg"  alt="Blog-img">
                 </div>
                 <h5 class="font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h5>
             </div>
             <div class="post col-lg-4 col-md-4 col-6 pb-5">
-                <div class="post-img date">
+                <div class="post-img date"  data-aos="zoom-in" data-aos-duration='1000'>
                     <p class="img-txt">date 4 feb</p>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/5th-Blog_image.jpg"  alt="Blog-img">
                 </div>
                 <h5 class="font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h5>
             </div>
             <div class="post col-lg-4 col-md-4 col-6 pb-5">
-                <div class="post-img date">
+                <div class="post-img date"  data-aos="zoom-in" data-aos-duration='1000'>
                     <p class="img-txt">date 4 feb</p>
                     <img class="w-100 img-fluid" src="/assets/img/Blog-img/3rd-Blog_image.jpg"  alt="Blog-img">
                 </div>
@@ -415,6 +417,12 @@
     </footer>
 
     <!-- FOOTER ENDS-->
+
+    <!-- script for animation (aos) -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 </body>
 
 
