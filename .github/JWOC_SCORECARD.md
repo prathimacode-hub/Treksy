@@ -7,10 +7,10 @@
   
 Name : Unni Krishnan <br>
 Github : https://github.com/unnikrishnan2002 <br>
-Number of PR's : 3 <br>
-PR Numbers : #14, #18, #27 <br>
+Number of PR's : 4 <br>
+PR Numbers : #14, #18, #27, #33 <br>
 Projects Done : Header Section to Home Page (easy) | Folder Structure Added + Refined Code (easy) | Carousel Added to Home Page (easy) | <br>
-Points : 3 <br>
+Points : 8 <br>
 
 Name : Shruti Goyal <br>
 Github : https://github.com/Shruti025 <br>
