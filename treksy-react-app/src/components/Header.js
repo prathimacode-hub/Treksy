@@ -26,7 +26,7 @@ function Header() {
                                     <a className="nav-link" href="#">Contact Us</a>
                                 </li>
                             </ul>
-                            <a href='http://localhost:3000/login'>
+                            <a href='/login'>
                                 <button className="btn btn-success">Login</button>
                             </a>
                         </div>
