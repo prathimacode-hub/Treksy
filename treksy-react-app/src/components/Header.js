@@ -1,11 +1,23 @@
 import '../styles/Header.css'
-import React from 'react';
+import React, { useState } from 'react';
 
 function Header() {
+
+    const [navbar, setNavbar] = useState(false);
+
+    const changeBackground = () => {
+        if(window.scrollY >= 150){
+            setNavbar(true);
+        }else {
+            setNavbar(false);
+        }
+    }
+
+    window.addEventListener('scroll', changeBackground);
     return (
         <div className="Header">
             <div className='Navbar'>
-                <nav className="navbar navbar-expand-lg navbar-light fixed-top">
+                <nav className={`navbar navbar-expand-lg navbar-${navbar ? 'light bg-dark' : 'light'} fixed-top`}>
                     <div className="container">
                         <a className="navbar-brand" href="#"><span className="text-warning">Tre</span>ksy</a>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,21 +56,21 @@ function Header() {
                         <div className="carousel-item active bg-1">
                             <div className="carousel-caption">
                                 <h5><span className="text-warning">Add Memories</span>To your Life</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, mollitia.</p>
+                                <p>Travel hassle free. Rejuvenate your soul with tons of memories</p>
                                 <a href="#" className='bg-success text-white'>Explore</a>
                             </div>
                         </div>
                         <div className="carousel-item bg-2">
                             <div className="carousel-caption">
                                 <h5><span className="text-warning">Add Memories</span>To your Life</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, mollitia.</p>
+                                <p>Travel hassle free. Rejuvenate your soul with tons of memories</p>
                                 <a href="#" className='bg-success text-white'>Explore</a>
                             </div>
                         </div>
                         <div className="carousel-item bg-3">
                             <div className="carousel-caption">
                                 <h5><span className="text-warning">Add Memories</span>To your Life</h5>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, mollitia.</p>
+                                <p>Travel hassle free. Rejuvenate your soul with tons of memories</p>
                                 <a href="#" className='bg-success text-white'>Explore</a>
                             </div>
                         </div>
