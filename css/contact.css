@@ -122,6 +122,22 @@ input[type=submit]:hover {
   background-color: #00a508;
 }
 
+#contactForm .error-captcha
+{
+
+    max-width: 16em;
+    padding: 1.1rem;
+    text-align: center;
+    margin: 1em 0 1em 0;
+    background-color: rgba(207, 52, 52, 0.678);
+    display: none;
+}
+#contactForm .error-captcha.active
+{
+    display: block;
+}
+
+
 /* Responsive */
 
 @media (max-width: 51.875em) {
@@ -158,4 +174,10 @@ input[type=submit]:hover {
     width: 100%;
     margin-left: 0;
   }
+  #contactForm .error-captcha
+{
+
+    max-width: 20em;
+    
+}
 }

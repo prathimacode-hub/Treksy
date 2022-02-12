@@ -6,8 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
+  
     <title>Contact</title>
-    <script src="../js/contact.js"></script>
+  
 </head>
 <body>
     <div class="container">
@@ -40,7 +41,7 @@
 
                 <h3>We'd love to hear from you...</h3>
                 
-                <form method="POST" id="contactForm" name="contactForm" onsubmit="return validate();">
+                <form method="POST" id="contactForm" name="contactForm" onsubmit="validate(event);" >
             
                     <label for="name">Name*</label>
                     <input type="text" id="name" name="name" placeholder="Your name" required>
@@ -53,12 +54,19 @@
 
                     <label for="message">Message*</label>
                     <textarea id="message" name="message" placeholder="Your message..." required rows="4"></textarea>
-                
-                    <input type="submit" value="Submit">
-                
+
+                    <!-- removed default recaptcha -->
+                    <input type="hidden" name="_captcha" value="false">
+                    <div class="h-captcha" data-sitekey="" data-size="compact" ></div>
+                    <div class="error-captcha" >Please fill the captcha</div>
+                    <input  type="submit" value="Submit">
+                    
                 </form>
             </div>
         </div>
     </div>
+    <script src="../js/config_keys.js" ></script>
+    <script src="../js/contact.js"  ></script>
+    <script src="https://js.hcaptcha.com/1/api.js"  defer></script>
 </body>
 </html>
