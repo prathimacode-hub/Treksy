@@ -20,9 +20,42 @@
   
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/js/bootstrap-multiselect.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-multiselect/0.9.13/css/bootstrap-multiselect.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
+   <link
+       href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&family=Varela+Round&display=swap"
+       rel="stylesheet">
+
 </head>
 <body>
+
+
     
+    <div class="container2">
+        <div class="logo">
+            <a href="#">TRESKY</a>
+        </div>
+    <div class="navbar">
+    
+    <div class="icon-bar" onclick="Show()">
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+    
+    <ul id="nav-lists">
+        
+        <li class="close"><span onclick="Hide()">×</span></li>
+        <li><a href="../index.html">Home</a></li>
+        <li ><a href="./about.html">About</a></li>
+        <li><a href="./blog.html">Blogs</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+        
+        <li><a href="#">Booking</a></li>
+    </ul>
+    
+    </div>
+    </div>
     <!-- book section starts  -->
 
     <div class="background">
@@ -138,7 +171,7 @@
     
     
                 <!-- <input type="submit" class=" input-grp btn" value="Customize my Trip!"> -->
-                <input type="submit" class="button" value="Customize my trip!">
+                <input type="submit" class="button2" value="Customize my trip!">
             </form>
         
         </div>
@@ -147,6 +180,7 @@
     
     </div>
 <!-- book section ends -->
+
 
 <script>
     let image = document.getElementById('img');
@@ -163,6 +197,16 @@
           includeSelectAllOption: true,
         });
     });
+
+    // navbar
+    var navList = document.getElementById("nav-lists");
+    function Show() {
+    navList.classList.add("_Menus-show");
+    }
+    
+    function Hide(){
+    navList.classList.remove("_Menus-show");
+    }
       
 </script>
 
