@@ -108,6 +108,9 @@
     left: 10px;
     font-size: 25px;
   }
+  #navbarNavDropdown{
+  justify-content:end;
+}
   /* POPUP STYLES */
 
   /* footer styling */
