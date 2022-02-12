@@ -46,8 +46,8 @@
   }
 
   .bg-modal .modal-content {
-    height: 500px;
-    width: 700px;
+    height: 70%;
+    width: 60%;
     background-color: white;
     margin: auto;
     position: absolute;
@@ -55,14 +55,14 @@
     bottom: 0;
     left: 0;
     right: 0;
-    border-radius: 4px;
+    border-radius: 8px;
     padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
+    z-index: 999;
     /* pointer-events: none; */
   }
-
   #map {
     width: 100%;
     height: 100%;
@@ -74,11 +74,16 @@
     top: 0px;
     right: 10px;
     font-size: 42px;
+    border-radius: 50%;
     transform: rotate(45deg);
     cursor: pointer;
     color: #333;
+    padding-right: 15px;
+    padding-left: 5px;
+    /* border: 1px solid red; */
+    text-align: center;
   }
-
+  
   .close:hover {
     color: #ff1919;
   }
@@ -86,11 +91,14 @@
   .locate {
     position: absolute;
     right: 10px;
-    top: 670px;
+    /* top: 670px; */
+    top: 100px;
     padding: 2px;
+    cursor: pointer;
   } 
-
+  
   .locate:hover{
+    transition: all .3s ease;
     background-color: rgb(218, 209, 209);
   }
 
@@ -101,5 +109,38 @@
     font-size: 25px;
   }
   /* POPUP STYLES */
+
+  /* footer styling */
+  .footer {
+    position: relative;
+  }
+  /* footer styling ends */
+
+  /* media queries starts */
+  @media (max-width:830px) {
+    .bg-modal .modal-content {
+      width: 70%;
+    }
+    .locate {
+      top: 20px;
+    }
+  }
+  @media (max-width:600px) {
+    .bg-modal .modal-content {
+      width: 80%;
+    }
+    .locate {
+      transform: scale(.8);
+    }
+  }
+  @media (max-width:450px) {
+    .bg-modal .modal-content {
+      width: 94%;
+    }
+    .locate {
+      top: 75px;
+    }
+  }
+  /* media queries ends*/
 
   
