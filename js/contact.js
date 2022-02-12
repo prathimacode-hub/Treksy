@@ -26,21 +26,27 @@ async function validate(e){
     }
     else
     {
-         
+        const headers = new Headers();
+        //custom request headers
+        headers.append("Content-Type","application/x-www-form-urlencoded");
+        headers.append('Accept', 'application/json');
+        
         try{
-            const res = await fetch(`https://hcaptcha.com/siteverify`, 
+            // sending the endpoint through a proxy to fix the CORS issue
+            const res = await fetch(`https://cors-proxy-3434.herokuapp.com/https://hcaptcha.com/siteverify`, 
             {   method: "POST", 
-                headers: { "Content-Type": "application/x-www-form-urlencoded" }, 
+                mode:"cors",
+                 headers:headers,
                 body: `response=${captcha_token.value}&secret=${secret}` 
             }) //post method for captcha result (success or fail)
 
             const json_data = await res.json();
-
             if(json_data.success)
             {
                 //if captcha was successful then submit this form through API
+              
                 e.target.action = "https://formsubmit.co/kadariprathima4@gmail.com";
-
+             
             }
             else
             {
