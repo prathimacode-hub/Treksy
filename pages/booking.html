@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="../css/booking.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Treksy|Booking</title>
+  <!-- Bootsrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!-- Bootsrap link -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<div id="header">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="/">
+              <h3>Treksy</h3>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse"
+              data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active " href="./pages/about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active " href="/pages/blog.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active " href="./pages/contact.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link active " href="./pages/booking.html">Booking</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+</div>
+
+<!-- Header -->
+<header class="top-bg">
+
+  <div class="booking">
+    <div class="tab">
+      <button class="tablinks" onclick="openLink(event, 'Flight')" id="defaultOpen"><i class="fa fa-plane"></i>Flight</button>
+      <button class="tablinks" onclick="openLink(event, 'Bus');"><i class="fa fa-bus"></i>Bus</button>
+      <button class="tablinks" onclick="openLink(event, 'Train');"><i class="fa fa-train"></i>Train</button>
+      <button class="tablinks" onclick="openLink(event, 'Hotel');"><i class="fa fa-bed "></i>Hotel</button>
+      <button class="tablinks" onclick="openLink(event, 'Car');"><i class="fa fa-car "></i>Car</button>
+    </div>
+
+    <!-- Tabs -->
+    <div id="Flight" class="tabcontent">
+      <h3>Travel the World with Us</h3>
+      <div class="row">
+        <div class="f-container">
+          <label>From</label>
+          <input class="tabinput" type="text" placeholder="Departing from">
+        </div>
+        <div class="f-container">
+          <label>To</label>
+          <input class="tabinput" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      <p><button class="tabbutton">Search and find dates</button></p>
+    </div>
+
+    <div id="Bus" class="tabcontent">
+      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+      <div class="row">
+        <div class="f-container">
+          <label>From</label>
+          <input class="tabinput" type="text" placeholder="Departing from">
+        </div>
+        <div class="f-container">
+          <label>To</label>
+          <input class="tabinput" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      <p><button class="tabbutton">Search and find dates</button></p>
+    </div>
+
+    <div id="Train" class="tabcontent">
+      <h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</h3>
+      <div class="row">
+        <div class="f-container">
+          <label>From</label>
+          <input class="tabinput" type="text" placeholder="Departing from">
+        </div>
+        <div class="f-container">
+          <label>To</label>
+          <input class="tabinput" type="text" placeholder="Arriving at">
+        </div>
+      </div>
+      <p><button class="tabbutton">Search and find dates</button></p>
+    </div>
+
+    <div id="Hotel" class="tabcontent">
+      <h3>Find the best hotels</h3>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores aliquid minima quis porro adipisci quia odio laboriosam inventore delectus blanditiis. Quisquam deserunt autem magni molestiae cum, illo et ea molestias!</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+      <p><button class="tabbutton">Search Hotels</button></p>
+    </div>
+
+    <div id="Car" class="tabcontent">
+      <h3>Best car rental in the world!</h3>
+      <p><span>DISCOUNT!</span> Special offer if you book today: 25% off anywhere in the world with CarServiceRentalRUs</p>
+      <input class="tabinput" type="text" placeholder="Pick-up point">
+      <button class="tabbutton">Search Availability</button>
+    </div>
+  </div>
+</header>
+
+<!-- Page Content -->
+<div>
+
+  <!-- Top Destinations-->
+  <div class="content">
+    <h2>Top Destinations</h2>
+    <div class="cardwrap">
+      <div class="card">
+          <img src="https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image">
+          <h4>NewYork</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/70441/pexels-photo-70441.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image">
+        <h4>Paris</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequun.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image">       
+        <h4>India</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+      </div>
+    </div>
+  </div>
+
+    <!-- Best Offers -->
+    <div class="content">
+      <h2>Best Offers</h2>
+      <div class="cardwrap">
+        <div class="card">
+            <img src="https://images.pexels.com/photos/1309644/pexels-photo-1309644.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+            <p>Upto <b>30%</b> off!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/262978/pexels-photo-262978.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image">
+          <p>Upto <b>40%</b> off!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+        </div>
+        <div class="card">
+          <img src="https://images.pexels.com/photos/271639/pexels-photo-271639.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="image">
+          <p>Upto <b>20%</b> off!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+        </div>
+      </div>
+    </div>
+
+      <!-- Explore Nature-->
+  <div class="content">
+    <h2>Explore Nature</h2>
+    <div class="cardwrap">
+      <div class="card">
+          <img src="https://images.pexels.com/photos/949194/pexels-photo-949194.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+          <h4>xyz Waterfall, Uttarakhand</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/189349/pexels-photo-189349.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="image">
+        <h4>Sunset point, Sikkim</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/847393/pexels-photo-847393.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="image">
+        <h4>pqr Ocean, Mumbai</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore ad doloribus optio rerum in voluptate aliquid iusto, tempora error aut ipsum consequuntur atque voluptatum. Libero deserunt in laboriosam ducimus quaerat.</p>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+        <!-- Section: Social media -->
+        <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-linkedin-in"></i></a>
+
+            <!-- Github -->
+            <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                    class="fab fa-github"></i></a>
+        </section>
+        <!-- Section: Social media -->
+
+        <img class="locate" src="assets/img/icons/google-maps.png" alt="locate">
+
+        <!-- Section: Form -->
+        <section class="">
+            <form action="">
+                <!--Grid row-->
+                <div class="row d-flex justify-content-center">
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <p class="pt-2">
+                            <strong>Sign up for our newsletter</strong>
+                        </p>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-5 col-12">
+                        <!-- Email input -->
+                        <div class="form-outline form-white mb-4">
+                            <input type="email" id="form5Example21" class="form-control" />
+                            <label class="form-label" for="form5Example21">Email address</label>
+                        </div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-auto">
+                        <!-- Submit button -->
+                        <button type="submit" class="btn btn-outline-light mb-4">
+                            Subscribe
+                        </button>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </form>
+        </section>
+        <!-- Section: Form -->
+
+        <!-- Section: Text -->
+        <section class="mb-4">
+            <p>Spend your time making the most of your experiences instead of spending countless hours searching for
+                bookings, activities and local resources. Travel hassle free.</p>
+        </section>
+        <!-- Section: Text -->
+
+        <!-- Section: Links -->
+        <section class="">
+            <!--Grid row-->
+            <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">About Tresky</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="./pages/contact.html" class="text-white">Contact Us</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Resources</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Travel</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Booking Services</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Trip Planner</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Explore</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Offbeat Explorations</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Customized Itineraries</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Terms of Use </h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#!" class="text-white">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-white">Site Map</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <!--Grid column-->
+            </div>
+            <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright
+    </div>
+    <!-- Copyright -->
+</footer>
+
+<script>
+// Tabs
+
+function openLink(evt, tabName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+
+}
+document.getElementById("defaultOpen").click();
+</script>
+
+</body>
+</html>
