@@ -2,6 +2,9 @@
     font-family: monteserrat;
 }
 
+/* .navbar .active {
+	background-color: black;
+} */
 .navbar-nav a{
     font-size: 15px;
     text-transform: uppercase;
