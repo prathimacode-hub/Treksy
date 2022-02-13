@@ -1,0 +1,140 @@
+.top-bg{
+  padding: 100px;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background: url('https://images.pexels.com/photos/1591373/pexels-photo-1591373.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-size: cover;
+  border-bottom: black 2px solid;
+}
+
+.fa{
+  color: #5333ed;
+  margin: 0px 4px;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: black;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tablinks {
+  color: #ccc;
+  background-color: inherit;
+  float: left;
+  border: solid rgb(240, 237, 237) 0px 0.2px;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 16px;
+  transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tablinks:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create an active/current tablink class */
+.tablinks.active {
+  background-color: #ccc;
+  color: black;
+}
+
+/* Style the tab content */
+.tabcontent {
+  background-color:white;
+  color: black;
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  animation: fadeEffect 0.6s;
+}
+
+.f-container{
+  flex: content;
+  margin: 10px;
+  overflow: hidden;
+  float: left;
+}
+
+.row{
+  margin: 10px;
+}
+
+.tabbutton{
+  border-radius: 4px;
+  background-color: rgb(45, 192, 45);
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.tabbutton:hover{
+  background-color: green;
+}
+
+h2{
+  text-align: center;
+  padding: 30px;
+  text-decoration: underline rgb(107, 107, 107);
+}
+
+h4{
+  text-align: center;
+  padding: 10px;
+  text-decoration:none;
+}
+
+.content{
+  border-bottom: rgb(58, 58, 58) 2px solid;
+  padding-bottom: 20px;
+}
+
+.cardwrap{
+  padding: 30px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.card{
+  width: 250px;
+  overflow: hidden;
+  box-shadow: 1.5px 1.5px 8px rgba(56, 51, 51, 0.733) ;
+  float: left;
+  margin: 20px;
+}
+
+.card p{
+  padding: 10px;
+}
+
+.card:hover{
+  transform: scale(1.03) ;
+  transition: 0.1s;
+  cursor: pointer;
+}
+
+.img{
+  width:100%;
+  height:150px;
+  object-fit: cover;
+}
+
+footer{
+  float:left;
+  width:100%;
+}
+
+/* Go from zero to full opacity */
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
