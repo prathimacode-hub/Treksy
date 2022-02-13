@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Treksy|Home</title>
+
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="stylesheet" href="/css/blog.css">
+
+    <!-- Bootsrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootsrap link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <!-- BOOTSTRAP SCRIPTS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- BOOTSTRAP SCRIPTS -->
+
+    <!-- HEADER -->
+    <div id="header">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">
+                    <h3>Treksy</h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="/pages/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="/pages/blog.html">Blogs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="./pages/contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active " href="/booking">Booking</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- HEADER  -->
+
+    
+    <!-- BLOG STARTS  -->
+   
+    <section id="blog-home" class="pt-2 mt-4 container">
+        <h1 class="font-weigth-bold pt-1.5">Blogs</h1>
+            <hr>
+    </section>
+
+    <section id="blog-conteiner" class="container pt-4">
+        <div class="row">
+            <div class="post col-lg-6 col-md-6 col-12 pb-4">
+                <div class="post-img date">
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/6th-Blog_image.jpg"  alt="Blog-img">
+                    <p class="img-txt">date 5 feb</p>
+                </div>
+                <h4 class="text-center font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur ad nisi lorem egestas vitae scel<span id="dots1">...</span><span id="more1">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                <button onclick="myFunction1()" id="myBtn1">Read more</button>
+                     <!-----read more-->
+
+            <script type="text/javascript" >
+                   function myFunction1() {
+                        var dots = document.getElementById("dots1");
+                        var moreText = document.getElementById("more1");
+                        var btnText = document.getElementById("myBtn1");
+
+                    if (dots.style.display === "none") {
+                         dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                
+            </script>
+
+            <!---------end-->
+
+                
+           
+
+            </div>
+
+            <div class="post col-lg-6 col-md-6 col-12 pb-4">
+                <div class="post-img date">
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/2nd-Blog_image.jpg"  alt="Blog-img">
+                    <p class="img-txt">date 5 feb</p>
+                </div>
+                <h4 class="text-center font-weight-normal pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipis nisi lorem egestas vitae scel<span id="dots2">...</span><span id="more2">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                <button onclick="myFunction2()" id="myBtn2">Read more</button>
+                     <!-----read more-->
+
+            <script type="text/javascript" >
+                function myFunction2() {
+                        var dots = document.getElementById("dots2");
+                        var moreText = document.getElementById("more2");
+                        var btnText = document.getElementById("myBtn2");
+
+                    if (dots.style.display === "none") {
+                         dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+                
+
+                
+            </script>
+
+            <!---------end-->
+
+            </div>
+
+            <div class="post col-lg-6 col-md-6 col-12 pb-4">
+                <div class="post-img date">
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/7th-Blog_image.jpg"  alt="Blog-img">
+                    <p class="img-txt">date 5 feb</p>
+                </div>
+                <h4 class="text-center font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing. nisi lorem egestas vitae scel<span id="dots3">...</span><span id="more3">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                <button onclick="myFunction3()" id="myBtn3">Read more</button>
+                           <!-----read more-->
+
+            <script type="text/javascript" >
+
+                    function myFunction3() {
+                        var dots = document.getElementById("dots3");
+                        var moreText = document.getElementById("more3");
+                        var btnText = document.getElementById("myBtn3");
+
+                    if (dots.style.display === "none") {
+                         dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+
+                
+            </script>
+
+            <!---------end-->
+            </div>
+            <div class="post col-lg-6 col-md-6 col-12 pb-4">
+                <div class="post-img date">
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/4th-Blog_image.jpg"  alt="Blog-img">
+                    <p class="img-txt">date 5 feb</p>
+                </div>
+                <h4 class="text-center font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur. lorem egestas vitae scel<span id="dots4">...</span><span id="more4">erisque enim ligula venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce luctus vestibulum augue ut aliquet. Nunc sagittis dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue eros non fermentum. Sed dapibus pulvinar nibh tempor porta.</span></p>
+
+                <button onclick="myFunction4()" id="myBtn4">Read more</button>
+                           <!-----read more-->
+
+            <script type="text/javascript" >
+
+                    function myFunction4() {
+                        var dots = document.getElementById("dots4");
+                        var moreText = document.getElementById("more4");
+                        var btnText = document.getElementById("myBtn4");
+
+                    if (dots.style.display === "none") {
+                         dots.style.display = "inline";
+                        btnText.innerHTML = "Read more";
+                        moreText.style.display = "none";
+                    } else {
+                            dots.style.display = "none";
+                            btnText.innerHTML = "Read less";
+                            moreText.style.display = "inline";
+                        }
+                    }
+
+                
+            </script>
+
+            <!---------end-->
+            </div>
+
+           
+
+            <div class="col-lg-12 col-md-12 col-12 pb-5 pt-5">
+                <div class="post-img">
+                    <img class="w-100 img-fluid banner" src="/assets/img/Blog-img/Blog-cover.png"  alt="Blog-img">
+                </div>
+            </div>
+            <div class="post col-lg-4 col-md-4 col-6 pb-5">
+                <div class="post-img date">
+                    <p class="img-txt">date 4 feb</p>
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/8th-Blog_image.jpg"  alt="Blog-img">
+                </div>
+                <h5 class="font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h5>
+            </div>
+            <div class="post col-lg-4 col-md-4 col-6 pb-5">
+                <div class="post-img date">
+                    <p class="img-txt">date 4 feb</p>
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/5th-Blog_image.jpg"  alt="Blog-img">
+                </div>
+                <h5 class="font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h5>
+            </div>
+            <div class="post col-lg-4 col-md-4 col-6 pb-5">
+                <div class="post-img date">
+                    <p class="img-txt">date 4 feb</p>
+                    <img class="w-100 img-fluid" src="/assets/img/Blog-img/3rd-Blog_image.jpg"  alt="Blog-img">
+                </div>
+                <h5 class="font-weight-normal pt-3">Lorem ipsum dolor sit, amet  elit. Aperiam, cumque?</h5>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- BLOG ENDS  -->
+
+
+    <!-- FOOTER STARTS -->
+
+    <footer class="bg-dark text-center text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Social media -->
+            <section class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-linkedin-in"></i></a>
+
+                <!-- Github -->
+                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                        class="fab fa-github"></i></a>
+            </section>
+            <!-- Section: Social media -->
+
+            <!-- Section: Form -->
+            <section class="">
+                <form action="">
+                    <!--Grid row-->
+                    <div class="row d-flex justify-content-center">
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <p class="pt-2">
+                                <strong>Sign up for our newsletter</strong>
+                            </p>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-md-5 col-12">
+                            <!-- Email input -->
+                            <div class="form-outline form-white mb-4">
+                                <input type="email" id="form5Example21" class="form-control" />
+                                <label class="form-label" for="form5Example21">Email address</label>
+                            </div>
+                        </div>
+                        <!--Grid column-->
+
+                        <!--Grid column-->
+                        <div class="col-auto">
+                            <!-- Submit button -->
+                            <button type="submit" class="btn btn-outline-light mb-4">
+                                Subscribe
+                            </button>
+                        </div>
+                        <!--Grid column-->
+                    </div>
+                    <!--Grid row-->
+                </form>
+            </section>
+            <!-- Section: Form -->
+
+            <!-- Section: Text -->
+            <section class="mb-4">
+                <p>Spend your time making the most of your experiences instead of spending countless hours searching for
+                    bookings, activities and local resources. Travel hassle free.</p>
+            </section>
+            <!-- Section: Text -->
+
+            <!-- Section: Links -->
+            <section class="">
+                <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">About Tresky</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="./pages/contact.html" class="text-white">Contact Us</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Resources</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Travel</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Booking Services</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Trip Planner</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Explore</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Offbeat Explorations</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Customized Itineraries</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Terms of Use </h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a href="#!" class="text-white">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="text-white">Site Map</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+                </div>
+                <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+    <!-- FOOTER ENDS-->
+</body>
+
+
+</html>

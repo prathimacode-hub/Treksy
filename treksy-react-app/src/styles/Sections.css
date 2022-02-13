@@ -1,0 +1,26 @@
+.about {
+    overflow-x: hidden;
+    margin: 50px;
+}
+
+.content {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    /* margin: 50px; */
+}
+
+hr {
+    width: 100%;
+    background-color: blue;
+    margin-bottom: 50px;
+}
+
+h1 {
+    font-family: fantasy;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: "Lucida Console", "Courier New";
+}
