@@ -14,9 +14,39 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&family=Varela+Round&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>  
+       <link
+           href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&family=Varela+Round&display=swap"
+           rel="stylesheet">
 </head>
 
 <body>
+    <div class="container2">
+        <div class="logo">
+            <a href="#">TRESKY</a>
+        </div>
+    <div class="navbar">
+    
+    <div class="icon-bar" onclick="Show()">
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+    
+    <ul id="nav-lists">
+        
+        <li class="close"><span onclick="Hide()">×</span></li>
+        <li><a href="../index.html">Home</a></li>
+        <li style="color: #716EFF;"><a href="#"><strong>About</strong></a></li>
+        <li><a href="./blog.html">Blogs</a></li>
+        <li><a href="./contact.html">Contact Us</a></li>
+        
+        <li><a href="./trip planner.html">Booking</a></li>
+    </ul>
+    
+    </div>
+    </div>
     
     <h1>About Us</h1>
 
@@ -57,13 +87,94 @@
         </div>
     </div>
 
-    <footer>
+    <!-- <footer>
         <div class="footer">
             <a href="#" class="fa fa-instagram"></a>
             <a href="#" class="fa fa-twitter"></a>
             <a href="#" class="fa fa-github"></a>
         </div>
+    </footer> -->
+
+    
+    <div class="container3"></div>
+    <footer>
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">About Tresky</h2>
+          <ul>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Customer Care</a></li>
+            
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Travel </h2>
+          <ul>
+            <li><a href="#">Booking Services</a></li>
+            <li><a href="#">Trip planner</a></li>
+            <li><a href="#">Offbeat Explorations</a></li>
+            <li><a href="#">Customized Itineraries</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Explore More</h2>
+          <ul>
+            <li><a href="#">Retail Stores</a></li>
+            <li><a href="#">Sitemaps</a></li>
+            <li><a href="#">Gift Vouchers</a></li>
+            <li><a href="#">Visa and Ticket informations</a></li>
+            <li><a href="#">Careers and Partnering with Us </a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Stay Updated</h2>
+          <p>Sign Up for our newsletter!</p>
+          <form>
+            <input type="email" name="email" placeholder="Enter email address">
+            <input type="submit" value="Subscribe">
+          </form>
+        </div>
+      </section>
+    
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fab fa-github"></i></a></li>
+          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </section>
+    
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Terms &amp; Conditions</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li>&copy; 2022 by Treksy</li>
+        </ul>
+      </section>
     </footer>
+    
+    
+    
+    
+    <script>
+        var navList = document.getElementById("nav-lists");
+        function Show() {
+        navList.classList.add("_Menus-show");
+        }
+        
+        function Hide(){
+        navList.classList.remove("_Menus-show");
+        }
+        </script>
+    
 
 </body>
 
