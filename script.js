@@ -19,12 +19,18 @@ function initMap() {
 window.onload=function(){
 
     const popup = document.querySelector(".bg-modal");
+    const prev = document.querySelector(".carousel-control-prev");
+    const next = document.querySelector(".carousel-control-next");
 
     document.querySelector(".locate").addEventListener("click", () => {
         popup.style.display = "block";
+        prev.style.display = "none";
+        next.style.display = "none";
     })
 
     document.querySelector(".close").addEventListener("click", () => {
         popup.style.display = "none";
+        prev.style.display = "flex";
+        next.style.display = "flex";
     })
 }
