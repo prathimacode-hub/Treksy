@@ -1,10 +1,158 @@
+
+/* Google Font CDN Link */
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins" , sans-serif;
 }
+
+body{
+  background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-tourism-travel-lighthouse-cloud-picture-image_925651.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 85%;
+  backdrop-filter: blur(10px);
+  border-radius: 0.5em;
+  border: 0.125em solid rgb(177, 177, 177);
+  padding: 1.25em 3.75em 1.875em 3.75em;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading - Contact Us*/
+.heading{
+  color: rgb(113, 110, 255);
+  text-align: center;
+  padding: 0.5em;
+  pointer-events: none;
+  flex: none;
+}
+
+/* Row: Left column + Right column*/
+.container .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0em 1.875em;
+}
+
+/* Left column */
+
+.container .row .column1{
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 0.9375em;
+  position: relative;
+  border-right: 0.0675em solid whitesmoke;
+}
+
+.row .column1 .details{
+  margin: 0.875em;
+  text-align: center;
+}
+.row .column1 .details i{
+  font-size: 1.875em;
+  color: #5f3ebb;
+  margin-bottom: 0.625em;
+}
+.row .column1 .details .topic{
+  font-size: 1.125em;
+  font-weight: 500;
+  color: #f3f4fa;
+}
+.row .column1 .details .text-one,
+.row .column1 .details .text-two{
+  font-size: 0.875em;
+  color:rgba(240, 248, 255, 0.918);
+}
+
+/* Right column */
+
+/* Sub-heading */
+h3{  
+  pointer-events: none;
+  text-align: center;
+  color: #ccc;
+}
+
+/* Form */
+
+.container .row .column2{
+  width: 75%;
+  margin-left: 4.6875em;
+  color: #f3f4fa;
+}
+
+/* Inputs */
+input[type=text], input[type=email], textarea {
+  width: 100%; 
+  padding: 0.75em; 
+  border: 0.0625 solid #ccc; 
+  border-radius: 0.25em; 
+  box-sizing: border-box; 
+  margin-top: 0.375em; 
+  margin-bottom: 1em; 
+  resize: vertical; 
+}
+
+/* Submit button */
+input[type=submit] {
+  background-color: #00c00a;
+  color: white;
+  padding: 0.75em 1.25em;
+  border: none;
+  border-radius: 0.25em;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+/* hover effect on submit button */
+input[type=submit]:hover {
+  background-color: #00a508;
+}
+
+/* Responsive */
+
+@media (max-width: 51.875em) {
+  .container{
+    width: 90%;
+    padding: 1.875em 2.5em 2.5em 2.1875em ;
+  }
+  .container .row .column2{
+    width: 75%;
+    margin-left: 0em;
+  }
+  .container .row .column1{
+    border: none;
+  }
+}
+
+@media (max-width: 51.25em) {
+  .container{
+    margin: 2.5em 0;
+    height: 100%;
+  }
+  .container .row{
+    flex-direction: column-reverse;
+  }
+  .container .row .column1{
+=======
 body {
     background: linear-gradient(90deg, #e6e6fa, #ffb6c1);
 }
@@ -62,51 +210,21 @@ li {
     position: fixed;
     left: 0;
     bottom: 0;
+
     width: 100%;
-    border: 1px solid #4e78a0;
-    background: #4e78a0;
-}
-
-.first {
-    border-radius: 10px 0px 0px 10px;
-}
-
-.second {
-    border-radius: 0px 10px 10px 0px;
-}
-
-.fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-instagram {
-    color: white;
-}
-
-.fa-twitter {
-    color: white;
-}
-
-.fa-github {
-    color: white;
-}
-
-.footer {
-    margin-left: 50%;
-    display: flex;
     flex-direction: row;
-    width: 100%;
-    transform: translate(-50%);
+    margin-top: 2.5em;
     justify-content: center;
+
+    flex-wrap: wrap;
+    border: none;
+  }
+  .container .row.column2{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
     margin-top: 5px;
 } */
 
