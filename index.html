@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 
+
     <!-- BOOTSTRAP SCRIPTS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -29,17 +30,11 @@
         crossorigin="anonymous"></script>
     <!-- BOOTSTRAP SCRIPTS -->
 
-</head>
 
-<body>
 
-    <script src="script.js"></script>
+            <div class="carousel-item active">
+                <img src="img/bg.jpg" class="d-block w-100 " alt="...">
 
-    <!-- GOOGLE MAPS API -->
-    <script
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHkfokZguOQpmdUJokVJbAY5xDLvB0eug&callback=initMap&libraries=&v=weekly"
-        async></script>
-    <!-- GOOGLE MAPS API -->
 
     <!-- POPUP MODAL -->
     <div class="bg-modal">
@@ -87,50 +82,128 @@
     </div>
     <!-- HEADER  -->
 
+                <!-- booking form -->
+                <div class="centered">
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control f1" placeholder="From" aria-label="start_place">
+                        <img src="img/revert-hand-drawn-arrows.png" class="rev-icon" alt="">
+                        <input type="text" class="fo rm-control f2" placeholder="To" aria-label="end_place">
+                    </div>
+                    <div class="text-center">
+                        <button type="button" src="" class="btn btn-success">Search Bus</button>
+                    </div>
 
-    <!-- CAROUSEL  -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/img/carousel-img/scene.jpg" alt="First slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Welcome</h3>
                 </div>
             </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel-img/lake.jpg" alt="Second slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Welcome</h3>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel-img/mountain.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Welcome</h3>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="assets/img/carousel-img/street.jpg" alt="Third slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <h3>Welcome</h3>
-                </div>
+
+        </div>
+    </div>
+    <!-- designing universal home page design   -->
+
+    <!-- adding buses deatail -->
+    <!-- bus-1 -->
+    <div class="buses">
+        <div class="card" style="width: 18rem;">
+            <img src="img/bus (1).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Safar bus services</h5>
+                <p class="card-text"> This bus in running only monday to friday.
+                    <br>Departure time -> 09:30pm
+                    <br>Arrival time -> 05:00am
+                    <br> facilities -> Non-AC bus
+
+                </p>
+                <a href="#" class="btn btn-primary">Book Bus</a>
             </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
+        <!-- bus-2 -->
+        <div class="card" style="width: 18rem;">
+            <img src="img/bus (2).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">InterCity SmartBus</h5>
+                <p class="card-text">This bus in running daily including festivals.
+                    <br>Departure time -> 08:30pm
+                    <br>Arrival time -> 04:30am
+                    <br> facilities -> AC/ Non-AC bus
+                </p>
+                <a href="#" class="btn btn-primary">Book Bus</a>
+            </div>
+        </div>
+        <!-- bus-3 -->
+        <div class="card" style="width: 18rem;">
+            <img src="img/bus (3).jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Kalpana Travels Pvt. Ltd.</h5>
+                <p class="card-text">This bus in running daily including fesival and emergency.
+                    <br>Departure time -> 08:30pm
+                    <br>Arrival time -> 05:00am
+                    <br> facilities -> Non-AC bus
+                </p>
+                <a href="#" class="btn btn-primary">Book Bus</a>
+            </div>
+        </div>
     </div>
-    <!-- CAROUSEL  -->
+
+    <!-- About us section -->
+    <div class="about_section">
+        <div class="right">
+            <h2 class="feature_text">
+                <u><b>About</b></u>
+            </h2>
+            <h3 class="about_text">Tired of spending endless hours planning your next big trip? We got you covered! At
+                Treksy we believe
+                that planning your adventures should be easy and fun.
+
+                <br>
+                We are striving to provide best class services in the budget of travelers. We are trying to spread our
+                service to rural area where it is very difficult to go from village to city
+
+            </h3>
+
+        </div>
+        <img src="svg/about_us_page.svg" class="about_avg " alt="">
+    </div>
+    <hr style="height: 3px;">
+
+    <!-- feature section -->
+    <div class="feature">
+        <img src="svg/feature.svg" class="feature-image" alt="feature image">
+        <div>
+            <h2 class="feature_text">
+                <u> The <B>Treksy</B> have these features:<br><br></u>
+            </h2>
+            <h3>
+                <ul>
+                    <li>Trip Planner</li>
+                    <li>Travel Recommendation Systems</li>
+                    <li>News & Information on Travel</li>
+                </ul>
+            </h3>
+        </div>
+
+
+    </div>
+    <hr style="height: 3px;">
+
+    <!-- Resources To Know & Insights section -->
+
+    <div class="resource">
+        <div class="resource-text-area">
+            <h2 class="resource-text">
+                <b><u>Resources To Know & Insights</u></b>
+            </h2>
+            <h3>
+                You can see all the resource of the treksy travelling services. Just click on the below button.
+            </h3>
+            <button type="button" src="" class="btn btn-success resource-btn">Resource</button>
+
+
+        </div>
+        <img src="svg/resources.svg" alt="Resources-svg" class="resources-img">
+    </div>
+
+    <!-- HOME PAGE  -->
+
 
 
     <!-- FOOTER STARTS -->
@@ -241,7 +314,7 @@
                                 <a href="#!" class="text-white">Booking Services</a>
                             </li>
                             <li>
-                                <a href="#!" class="text-white">Trip Planner</a>
+                                 <a href="#!" class="text-white">Trip Planner</a>
                             </li>
 
                         </ul>
@@ -295,6 +368,7 @@
 
     <!-- FOOTER ENDS-->
 </body>
+
 
 
 </html>

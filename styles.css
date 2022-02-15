@@ -33,117 +33,133 @@
     color: black;
   }
 
-  /* POPUP STYLES */
-  .bg-modal {
-    background-color: rgba(0, 0, 0, 0.7);
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 1;
-    display: none;
-  }
 
-  .bg-modal .modal-content {
-    height: 70%;
-    width: 60%;
-    background-color: white;
-    margin: auto;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    border-radius: 8px;
-    padding-top: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    z-index: 999;
-    /* pointer-events: none; */
-  }
-  #map {
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-  }
 
-  .close {
-    position: absolute;
-    top: 0px;
-    right: 10px;
-    font-size: 42px;
-    border-radius: 50%;
-    transform: rotate(45deg);
-    cursor: pointer;
-    color: #333;
-    padding-right: 15px;
-    padding-left: 5px;
-    /* border: 1px solid red; */
-    text-align: center;
-  }
-  
-  .close:hover {
-    color: #ff1919;
-  }
+/* __________________Home page design CSS_________________ */
 
-  .locate {
-    position: absolute;
-    right: 10px;
-    /* top: 670px; */
-    top: 100px;
-    padding: 2px;
-    cursor: pointer;
-  } 
-  
-  .locate:hover{
-    transition: all .3s ease;
-    background-color: rgb(218, 209, 209);
-  }
-
-  .text {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 25px;
-  }
-  #navbarNavDropdown{
-  justify-content:end;
+.main{
+  background-color: black;
 }
-  /* POPUP STYLES */
 
-  /* footer styling */
-  .footer {
-    position: relative;
-  }
-  /* footer styling ends */
+.slide{
+  opacity: 0.5;
+}
 
-  /* media queries starts */
-  @media (max-width:830px) {
-    .bg-modal .modal-content {
-      width: 70%;
-    }
-    .locate {
-      top: 20px;
-    }
-  }
-  @media (max-width:600px) {
-    .bg-modal .modal-content {
-      width: 80%;
-    }
-    .locate {
-      transform: scale(.8);
-    }
-  }
-  @media (max-width:450px) {
-    .bg-modal .modal-content {
-      width: 94%;
-    }
-    .locate {
-      top: 75px;
-    }
-  }
-  /* media queries ends*/
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
+.d-block{
+  height: 35rem;
+}
+
+
+.rev-icon{width: 30px;
+  height: 30px;
+  margin-top: 4px;
+  margin-right: 5px;
+}
+
+.to{
+  margin: 3px;
+  border-radius: 5px;
+}
+
+.dt{
+  margin: 3px;
+  border-radius: 5px;
+}
+.f1{
+  margin-right: 5px;
+}
+.form-control{
+  width: 70%;
+}
+
+.buses{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-top: 30px;
+  background-color: cadetblue;
+}
+.card{
+  margin: 25px;
+}
+.about_section{
+  display: flex;
+  margin-top: 8vh;
+}
+.about_avg{
+  width: 30rem;
+  height: 30rem;
+  margin: 0vh 10vh;
+}
+.about_text{
+  position: relative;
+  top: 7rem;
+  padding-left: 3rem;
+  color: #8a6974;
+}
+.feature{
+  margin-top: 4rem;
+  display:flex;
+  margin-bottom: 3rem;
+}
+.feature-image{
+  width: 50%;
+}
+
+.feature_text{
+  position: relative;
+  top: 6rem;
+  padding-left: 3rem;
+  color: #198754;
+
+}
+h3 ul{
+  position: relative;
+  top: 5rem;
+  left: 3.5rem;
+  line-height: 3rem;
+  color: #8a6974;
+}
+
+/* Resources To Know & Insights section */
+
+.resource{
+  display: flex;
+  margin: 4rem;
   
+  
+}
+.resources-img{
+  width: 50%;
+}
+.resource-text-area{
+  color: #8a6974;
+  position: relative;
+  top: 5rem;
+}
+.resource-text{
+  color: #198754;
+}
+
+.resource-text-area h3{
+
+  line-height: 3rem;
+}
+.resource-btn{
+  position: relative;
+  top: 2rem;
+}
+
+
+/* _______________________________________________________________ */
+
+
+
