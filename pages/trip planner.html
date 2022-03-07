@@ -7,12 +7,6 @@
     <link rel="stylesheet" href="../css/trip planner.css">
     <link rel="stylesheet" href="../css/trip.css">
     <link rel="stylesheet" href="../css/trip.css.map">
-
-    
-    <script src="../js/trip planner.js"></script>
- 
-    
-    
     <!-- doc -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
@@ -26,6 +20,7 @@
        href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&family=Varela+Round&display=swap"
        rel="stylesheet">
 
+    <script defer src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
 
@@ -80,34 +75,28 @@
     
             <div class="image" >
                 <img id ="img" src="" alt="">
-                <!-- <img src="./book-img.svg" alt=""> -->
             </div>
     
-            <form action="">
-             
+            <form action="" name="trip-form">             
             
                 <div class="input-grp">
                 <label> <h3>Current Location</h3></label>
-                <input class="inputBox form-control" type="text" placeholder="Enter Place Name">
+                <input class="inputBox form-control" type="text" placeholder="Enter Place Name" id="currentLocation">
                 </div>
                 <div class="input-grp">
                 <label> <h3>Destination Location</h3></label>
-                <input class="inputBox form-control" type="text" placeholder="Enter Place Name">
-                </div>
-                
+                <input class="inputBox form-control" type="text" placeholder="Enter Place Name" id="destination">
+                </div>              
                 
                 <div class="input-grp">
                     <label> <h3>Arrival</h3></label>
-                    <input class="inputBox form-control select-date" type="date">
-                </div>
-    
+                    <input class="inputBox form-control select-date" type="date" id="arrivalDate">
+                </div>    
                 <div class="input-grp">
                     <label> <h3>Return</h3></label>
-                    <input class="inputBox form-control select-date" type="date">
-                </div>
-    
-                <br>
-    
+                    <input class="inputBox form-control select-date" type="date" id="returnDate">
+                </div>    
+                <br>    
                 <div class="input-grp">
                     <label> <h3>Adults (12y+)</h3></label>
                     <input class="inputBox form-control" value="1" type="number" >
@@ -115,39 +104,20 @@
                 <div class="input-grp">
                     <label> <h3>Children (2y-12y)</h3></label>
                     <input class="inputBox form-control" value="0" type="number" >
-                </div>
-                <!-- <div class="input-grp">
-                    <label> <h3>Infants (below 2y)</h3></label>
-                    <input class="inputBox form-control" value="0" type="number" >
-                </div>  -->
-    
-                <br>
-    
+                </div>    
+                <br>    
                 <div class="input-grp">
                     <label><h3>Transportation Preferences</h3></label>
-                    <input class="inputBox" list="Transportation"placeholder="Select Transportation" name="Transportation">
-      <datalist id="Transportation">
-        <option value="Flights">
-        <option value="Buses/Traveller">
-        <option value="Own Car">
-        <option value="Rent Car">
-        <option value="Cabs">
-      </datalist>
-                </div>
-                <!-- <div class="input-grp">
-                    <label><h3>Food Preferences</h3></label>
-                    <input class="inputBox" list="Transportation"placeholder="Select Transportation" name="Transportation">
-      <datalist id="Transportation">
-        <option value="Flights">
-        <option value="Buses/Traveller">
-        <option value="Own Car">
-        <option value="Rent Car">
-        <option value="Cabs">
-      </datalist>
-                </div> -->
-    
-    <br>
-    
+                    <input class="inputBox" list="Transportation"placeholder="Select Transportation" name="Transportation" id="transportation">
+                    <datalist id="Transportation">
+                        <option value="Flights">
+                        <option value="Buses/Traveller">
+                        <option value="Own Car">
+                        <option value="Rent Car">
+                        <option value="Cabs">
+                    </datalist>
+                </div>   
+                <br>   
     
                   <!-- Travel Preferences -->
                   <div class="">
@@ -163,14 +133,7 @@
                     </select>
                     
                 </div>
-                  
-                  <!--Food Preferences  -->
-    
-                  
-                  <br>
-    
-    
-                <!-- <input type="submit" class=" input-grp btn" value="Customize my Trip!"> -->
+                  <br>   
                 <input type="submit" class="button2" value="Customize my trip!">
             </form>
         
@@ -180,36 +143,6 @@
     
     </div>
 <!-- book section ends -->
-
-
-<script>
-    let image = document.getElementById('img');
-    let images = ['../assets/img/trip planner img/image4.jpg','../assets/img/trip planner img/image1.jpeg','../assets/img/trip planner img/image2.jpeg','../assets/img/trip planner img/image3.jpeg'];
-    setInterval(()=>{
-        let random = Math.floor(Math.random()*4);
-        image.src = images[random];
-    },4000);
-
-     // doc
-   
-     $(document).ready(function() {
-        $('#multiple-checkboxes').multiselect({
-          includeSelectAllOption: true,
-        });
-    });
-
-    // navbar
-    var navList = document.getElementById("nav-lists");
-    function Show() {
-    navList.classList.add("_Menus-show");
-    }
-    
-    function Hide(){
-    navList.classList.remove("_Menus-show");
-    }
-      
-</script>
-
-
+<script src="../js/trip planner.js"></script>
 </body>
 </html>
