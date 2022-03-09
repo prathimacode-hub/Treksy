@@ -28,7 +28,8 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
     <!-- BOOTSTRAP SCRIPTS -->
-
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 
 <body>
@@ -170,7 +171,7 @@
 
             <!-- Section: Form -->
             <section class="">
-                <form action="">
+                <form action="" name="newsletter-form">
                     <!--Grid row-->
                     <div class="row d-flex justify-content-center">
                         <!--Grid column-->
@@ -203,6 +204,26 @@
                     <!--Grid row-->
                 </form>
             </section>
+            <!-- newsletter validation -->
+            <script>
+                const newsletterForm = document.forms["newsletter-form"];
+                const newsletterEmail = document.getElementById("form5Example21");
+                function isEmail(email) {
+                    let regexp = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;                
+                    return regexp.test(String(email).toLowerCase());
+                }
+
+                newsletterForm.addEventListener("submit",(event)=>{
+                    event.preventDefault();
+                    if(!isEmail(newsletterEmail.value)){
+                        swal("Error !","Please enter a valid email","error");
+                    }
+                    else{
+                        swal("Thank you !","We will contact you soon !","success");
+                        newsletterForm.reset();
+                    }
+                })
+            </script>
             <!-- Section: Form -->
 
             <!-- Section: Text -->
