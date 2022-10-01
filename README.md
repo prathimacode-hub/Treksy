@@ -151,8 +151,6 @@ This project follows the [General Public License 3.0](https://github.com/prathim
 <table>
   <tr>
 <td align="center"><a href="https://github.com/unnikrishnan2002"><img src="https://avatars.githubusercontent.com/u/76985777?v=4" width="100px;" alt=""/><br /><sub><b>Unni Krishnan</b></sub></a></td>
-  </tr>
-  <tr>
 <td align="center"><a href="https://github.com/"><img src="" width="100px;" alt=""/><br /><sub><b>Harshil Jani</b></sub></a></td>
   </tr>                                                                                                                                                    
 </table>
