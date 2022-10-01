@@ -146,6 +146,15 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/Trek
 This project follows the [General Public License 3.0](https://github.com/prathimacode-hub/Treksy/blob/main/LICENSE).
 
 
+## 😎 Hacktoberfest Mentor
+
+<table>
+  <tr>
+<td align="center"><a href="https://github.com/unnikrishnan2002"><img src="https://avatars.githubusercontent.com/u/76985777?v=4" width="100px;" alt=""/><br /><sub><b>Unni Krishnan</b></sub></a></td>
+  </tr>
+</table>
+
+
 ## 😎 Project Admin
 
 <table>
