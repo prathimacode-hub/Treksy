@@ -146,7 +146,7 @@ You can find our Code of Conduct [here](https://github.com/prathimacode-hub/Trek
 This project follows the [General Public License 3.0](https://github.com/prathimacode-hub/Treksy/blob/main/LICENSE).
 
 
-## 😎 Hacktoberfest Mentor
+## 😎 Hacktoberfest Mentors
 
 <table>
   <tr>
